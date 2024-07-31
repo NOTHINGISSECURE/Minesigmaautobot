@@ -23,7 +23,7 @@ API_HASH = environ.get("API_HASH", "0376051f8621f17e3f644acc3d01b413")
 BOT_TOKEN = environ.get("BOT_TOKEN", "")
 
 PICS = (environ.get('PICS', '')).split() # Bot Start Picture
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '7141149658').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6969171673').split()]
 BOT_USERNAME = environ.get("BOT_USERNAME", "XyzMoviesunofficialbot") # without @
 PORT = environ.get("PORT", "8080")
 

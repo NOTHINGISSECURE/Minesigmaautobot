@@ -55,7 +55,7 @@ async def start(client, message):
     if len(message.command) != 2:
         buttons = [[
             InlineKeyboardButton('🔍 Movie Channel', url='https://t.me/Movies_unofficial'),
-           
+                       InlineKeyboardButton('🔍 Corn Channel', url='https://t.me/+TVq9wR4Z2Yo3MzFl'),
             ]]
         if CLONE_MODE == True:
             buttons.append([InlineKeyboardButton('🤖 ᴄʀᴇᴀᴛᴇ ʏᴏᴜʀ ᴏᴡɴ ᴄʟᴏɴᴇ ʙᴏᴛ', callback_data='clone')])

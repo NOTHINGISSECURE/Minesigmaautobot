@@ -59,8 +59,8 @@ PUBLIC_FILE_STORE = is_enabled((environ.get('PUBLIC_FILE_STORE', "False")), True
 VERIFY_MODE = bool(environ.get('VERIFY_MODE', True)) # Set True or False
 
 # If Verify Mode Is True Then Fill All Required Variable, If False Then Don't Fill.
-SHORTLINK_API = environ.get("SHORTLINK_API", "publicearn.com") # shortlink api
-SHORTLINK_URL = environ.get("SHORTLINK_URL", "931f4b13bd82a38c75aa92face2613e5dad9bd4d") # shortlink domain without https://
+SHORTLINK_API = environ.get("SHORTLINK_API", "931f4b13bd82a38c75aa92face2613e5dad9bd4d") # shortlink api
+SHORTLINK_URL = environ.get("SHORTLINK_URL", "publicearn.com") # shortlink domain without https://
 VERIFY_TUTORIAL = environ.get("VERIFY_TUTORIAL", "https://t.me/How_To_Open_Linkl") # how to open link 
 
 # Website Info:

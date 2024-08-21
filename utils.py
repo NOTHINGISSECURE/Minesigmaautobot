@@ -10,7 +10,7 @@ VERIFIED = {}
 
 async def get_verify_shorted_link(link):
     if SHORTLINK_URL == "publicearn.com":
-        url = f'https://{SHORTLINK_URL}/'
+        url = f'https://{SHORTLINK_URL}/api'
         params = {
             "key": SHORTLINK_API,
             "link": link,

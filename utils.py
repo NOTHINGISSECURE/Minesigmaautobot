@@ -9,8 +9,8 @@ TOKENS = {}
 VERIFIED = {}
 
 async def get_verify_shorted_link(link):
-    if SHORTLINK_URL == "publicearn.com":
-        url = f'https://{SHORTLINK_URL}/api'
+    if SHORTLINK_URL == "api.shareus.io":
+        url = f'https://{SHORTLINK_URL}/easy_api'
         params = {
             "key": SHORTLINK_API,
             "link": link,

@@ -11,9 +11,7 @@ class script(object):
 # Ask Doubt on telegram @KingVJ01
 
     
-    CAPTION = """<b>📂 ғɪʟᴇɴᴀᴍᴇ : {file_name}
-
-sɪᴢᴇ ⚙️: {file_size}
+    CAPTION = """<b>
 """ 
 
 # Don't Remove Credit Tg - @VJ_Botz
